@@ -5,7 +5,6 @@
      <small class="author"> Submitted <%= time_ago_in_words(link.created_at) %> by <%= link.user.email %> </small>
    </h2>
 </div>
-<% end %>
 
 <div class="btn-group">
   <a class="btn btn-default btn-sm" href="<%= link.url %>">Visit Link </a>
@@ -23,4 +22,6 @@
     
     <% end %>
     
-    </div>
+ </div>
+<% end %>
+
